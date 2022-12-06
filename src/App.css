@@ -3,8 +3,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.app{
-  background-color:white;
+.app {
+  background-color: white;
   margin: 20px auto;
   min-height: 80vh;
   width: 400px;
@@ -13,80 +13,82 @@ body {
   justify-content: space-between;
 }
 
-img, h1 {
+img,
+h1 {
   align-self: center;
-  }
+}
 
-  .mainField{
-    display: flex;
-    flex-direction: column;
-      }
+.mainField {
+  display: flex;
+  flex-direction: column;
+}
 
-      input[type=text]{
-        align-self: center;
-        line-height: 2rem;
-        border: 2px solid pink;
-        border-radius: 10px;
-        max-width: 400px;
-        min-width: 70%;
-        -webkit-transition: 0.5s;
-        transition: 0.2s;
-        outline: none;
-        
-      }
+input[type=text] {
+  align-self: center;
+  line-height: 2rem;
+  border: 2px solid pink;
+  border-radius: 10px;
+  max-width: 400px;
+  min-width: 70%;
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+  outline: none;
 
-      input[type=text]:focus {
-        border: 3px solid red;
-      }
-      
-      .crossed{
-        text-decoration: line-through red 2px;
-        background: rgb(216, 216, 216);
-      }
+}
 
-      ul, li{
-        list-style-type: none;
-        padding: 10px;
-        margin: 0;
-        align-self: center;
-      }
+input[type=text]:focus {
+  border: 3px solid red;
+}
 
-      button{
-        min-width: 70%;
-        margin: 7px 0;
-        align-self: center;
-      }
+.crossed {
+  text-decoration: line-through red 2px;
+  background: rgb(216, 216, 216);
+}
 
-      .add{
-        padding: 10px;
-        background-color: rgb(51, 182, 90);
-        border: none;
-        font-family:'Montserrat', sans-serif; 
-        color: aliceblue;
-        font-size: 16px;
-        border-radius: 10px;
-        box-shadow: 2px 3px rgb(200, 200, 200);
-      }
+ul,
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  align-self: center;
+}
 
-      .add:hover{
-        background-color: rgb(37, 209, 65);
-        -webkit-transition: 0.5s;
-        transition: 0.2s;
-      }
+button {
+  min-width: 70%;
+  margin: 7px 0;
+  align-self: center;
+}
 
-      .del{
-        padding: 10px;
-        background-color: rgb(205, 115, 127);
-        border: none;
-        font-family:'Montserrat', sans-serif; 
-        color: aliceblue;
-        font-size: 16px;
-        border-radius: 10px;
-        box-shadow: 2px 3px rgb(200, 200, 200);
-      }
+.add {
+  padding: 10px;
+  background-color: rgb(51, 182, 90);
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 2px 3px rgb(200, 200, 200);
+}
 
-      .del:hover{
-        background-color: rgb(230, 98, 116) ;
-        -webkit-transition: 0.5s;
-        transition: 0.2s;
-      }
+.add:hover {
+  background-color: rgb(37, 209, 65);
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+}
+
+.del {
+  padding: 10px;
+  background-color: rgb(205, 115, 127);
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  color: aliceblue;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 2px 3px rgb(200, 200, 200);
+}
+
+.del:hover {
+  background-color: rgb(230, 98, 116);
+  -webkit-transition: 0.5s;
+  transition: 0.2s;
+}
